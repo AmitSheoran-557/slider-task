@@ -40,7 +40,7 @@ const CarouselCraft = () => {
     };
     return (
         <div className="bg-primary min-h-screen pt-20" >
-            <h2 className="text-white lg:mb-10 mb-7 text-3xl text-center mx-auto"> Slider Task </h2>
+            <h2 className="text-white lg:mb-10 mb-7 text-3xl text-center mx-auto">Nested Slider</h2>
             <div className="max-w-[1420px] mx-auto">
                 <Slider {...settings}>
                     {SLIDER_LIST.map((obj) => (
